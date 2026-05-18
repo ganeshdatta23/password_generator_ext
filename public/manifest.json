@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Strong Password Generator",
+  "version": "1.0.0",
+  "description": "Generate ultra secure, customizable passwords instantly.",
+  "icons": {
+    "128": "favicon.svg"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "favicon.svg"
+  }
+}
