@@ -4,10 +4,18 @@
   "version": "1.0.0",
   "description": "Generate ultra secure, customizable passwords instantly.",
   "icons": {
+    "16": "favicon.svg",
+    "32": "favicon.svg",
+    "48": "favicon.svg",
     "128": "favicon.svg"
   },
   "action": {
     "default_popup": "index.html",
-    "default_icon": "favicon.svg"
+    "default_icon": {
+      "16": "favicon.svg",
+      "32": "favicon.svg",
+      "48": "favicon.svg",
+      "128": "favicon.svg"
+    }
   }
 }

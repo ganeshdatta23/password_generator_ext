@@ -1,16 +1,32 @@
-# React + Vite
+# Strong Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A secure, customizable, and visually appealing browser extension to generate strong passwords instantly.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Secure Generation:** Uses `crypto.getRandomValues` for cryptographically strong random numbers.
+- **Customizable Length:** Generate passwords from 6 to 50 characters long.
+- **Flexible Options:** Choose to include uppercase letters, lowercase letters, numbers, and symbols.
+- **One-Click Copy:** Quickly copy the generated password to your clipboard.
+- **Modern UI:** Built with React and Tailwind CSS for a smooth and responsive experience.
 
-## React Compiler
+## Installation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Clone this repository.
+2. Run `npm install` to install dependencies.
+3. Run `npm run build` to generate the production build.
+4. Open your browser's extension management page:
+   - Chrome: `chrome://extensions/`
+   - Edge: `edge://extensions/`
+5. Enable "Developer mode".
+6. Click "Load unpacked" and select the `dist` folder from this project.
 
-## Expanding the ESLint configuration
+## Development
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `npm run dev`: Start the development server.
+- `npm run build`: Build for production.
+- `npm run lint`: Run ESLint.
+
+## License
+
+MIT
